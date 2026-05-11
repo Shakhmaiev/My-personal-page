@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakhmaiev Mykyta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html">Головна</a>
+            <a href="#subjects">Предмети</a>
+            <a href="#anime">Аніме</a>
+            <a href="#mood">Настрої</a>
+            <a href="#slideshow">Слайд-шоу</a>
+            <a href="project.html">Улюблений проєкт</a>
+        </nav>
+
+       <div class="theme-buttons">
+    <button
+        type="button"
+        class="theme-switcher-grid"
+        id="themeToggle"
+        aria-label="Перемкнути тему"
+        title="Перемкнути тему"
+    >
+        <span class="sun" aria-hidden="true"></span>
+        <span class="moon-overlay" aria-hidden="true"></span>
+
+        <span class="cloud-ball cloud-ball-left" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-middle" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-right" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-top" aria-hidden="true"></span>
+
+        <span class="star star-1" aria-hidden="true"></span>
+        <span class="star star-2" aria-hidden="true"></span>
+        <span class="star star-3" aria-hidden="true"></span>
+        <span class="star star-4" aria-hidden="true"></span>
+    </button>
+</div>
+    </header>
+
+    <main class="main">
+
+        <section class="hero-section">
+            <div class="profile-card">
+                <div class="profile-photo">
+                    <img src="site/profile.jpg" alt="Фото Шахмаєва Микити">
+                </div>
+
+                <div class="profile-info">
+                    <p class="section-label">FOOTBALL / WEB / SELF-DEVELOPMENT</p>
+
+                    <h1>Shakhmaiev Mykyta</h1>
+
+                    <p class="hero-description">
+                        Футбол, технології та саморозвиток — це те, що формує мій характер.
+                        Мені цікаві веброзробка, дизайн, аніме, 3D-проєкти та все, де можна
+                        поєднати логіку, креативність і якісний результат.
+                    </p>
+
+                    <div class="profile-words">
+                        <span>Геній</span>
+                        <span>Мільярдер</span>
+                        <span>Плейбой</span>
+                        <span>Філантроп</span>
+                    </div>
+
+                    <div class="profile-links">
+    <a href="mailto:nik.vanquisher@gmail.com">Gmail</a>
+    <a href="https://www.instagram.com/shakhmaievv" target="_blank">Instagram</a>
+    <a href="https://github.com/Shakhmaiev" target="_blank">GitHub</a>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subjects-section" id="subjects">
+            <h2>Предмети попереднього семестру</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Дисципліна</th>
+                        <th>Е/З</th>
+                        <th>Нац.</th>
+                        <th>Бал</th>
+                        <th>ECTS</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Математична логіка, теорія алгоритмів та структури даних<br>
+                            <span>Татарінова О.А. [КМПС]</span>
+                        </td>
+                        <td>Е<br>Р</td>
+                        <td>4</td>
+                        <td>75</td>
+                        <td>C</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            Нарисна геометрія в задачах візуалізації<br>
+                            <span>Федченко Г.В. [ГМКГ]</span>
+                        </td>
+                        <td>Е<br>Р</td>
+                        <td>4</td>
+                        <td>83</td>
+                        <td>B</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            Організація баз даних<br>
+                            <span>Мартиненко Г.Ю. [ММІО]</span>
+                        </td>
+                        <td>Е<br>КР</td>
+                        <td>5</td>
+                        <td>100</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            Програмування GUI<br>
+                            <span>Дашкевич А.О. [ГМКГ]</span>
+                        </td>
+                        <td>Е<br>Р</td>
+                        <td>3</td>
+                        <td>73</td>
+                        <td>D</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            Технології програмування<br>
+                            <span>Шаповалова М.І. [ММІО]</span>
+                        </td>
+                        <td>Е<br>КР</td>
+                        <td>5</td>
+                        <td>90</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            Іноземна мова<br>
+                            <span>Картун Н.О. [МКІМ]</span>
+                        </td>
+                        <td>З<br>-</td>
+                        <td>4</td>
+                        <td>86</td>
+                        <td>B</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            ОК СВУ<br>
+                            <span>Клименко О.І. [БПНС]</span>
+                        </td>
+                        <td>З<br>-</td>
+                        <td>4</td>
+                        <td>85</td>
+                        <td>B</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            Правознавство<br>
+                            <span>Кузьменко О.В. [П]</span>
+                        </td>
+                        <td>З<br>РЕ</td>
+                        <td>4</td>
+                        <td>80</td>
+                        <td>C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="anime-section" id="anime">
+            <p class="section-label">ANIME</p>
+            <h2>Улюблені аніме</h2>
+
+            <p class="section-description">
+                Я люблю аніме не тільки за сюжет, а й за атмосферу, стиль, персонажів
+                та емоції, які залишаються після перегляду.
+            </p>
+
+            <div class="anime-grid">
+                <a href="https://uk.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure" target="_blank" class="anime-card anime-jojo">
+                    <img src="site/jojo.jpg" alt="Джо Джо" loading="lazy">
+
+                    <div class="anime-card-content">
+                        <h3>JoJo's Bizarre Adventure</h3>
+                        <p>
+                            Стильне, незвичайне та дуже харизматичне аніме
+                            з яскравими персонажами.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://uk.wikipedia.org/wiki/Code_Geass" target="_blank" class="anime-card anime-code">
+                    <img src="site/code-geass.jpg" alt="Код Гіас" loading="lazy">
+
+                    <div class="anime-card-content">
+                        <h3>Code Geass</h3>
+                        <p>
+                            Сильна історія про стратегію, владу, боротьбу
+                            та складний вибір.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://uk.wikipedia.org/wiki/The_Eminence_in_Shadow" target="_blank" class="anime-card anime-shadow">
+                    <img src="site/shadow.jpg" alt="Восхождение в тени" loading="lazy">
+
+                    <div class="anime-card-content">
+                        <h3>The Eminence in Shadow</h3>
+                        <p>
+                            Аніме з темною атмосферою, гумором, силою головного героя
+                            та ефектними сценами.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://uk.wikipedia.org/wiki/Black_Clover" target="_blank" class="anime-card anime-clover">
+                    <img src="site/black-clover.jpg" alt="Чорний Клевер" loading="lazy">
+
+                    <div class="anime-card-content">
+                        <h3>Black Clover</h3>
+                        <p>
+                            Історія про наполегливість, дружбу, магію
+                            та бажання стати сильнішим.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://uk.wikipedia.org/wiki/Attack_on_Titan" target="_blank" class="anime-card anime-attack">
+                    <img src="site/attack-on-titan.jpg" alt="Атака титанів" loading="lazy">
+
+                    <div class="anime-card-content">
+                        <h3>Attack on Titan</h3>
+                        <p>
+                            Масштабне, драматичне та напружене аніме
+                            з глибоким сюжетом і сильною атмосферою.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="mood-section" id="mood">
+            <p class="section-label">MOOD</p>
+            <h2>Мої настрої</h2>
+
+            <div class="mood-gallery">
+                <div class="mood-card">
+                    <img src="site/smile.jpg" alt="Щасливий настрій" loading="lazy">
+                    <h3>Щасливий</h3>
+                </div>
+
+                <div class="mood-card">
+                    <img src="site/sad.jpg" alt="Сумний настрій" loading="lazy">
+                    <h3>Сумний</h3>
+                </div>
+
+                <div class="mood-card">
+                    <img src="site/zaraz.jpg" alt="Мій настрій зараз" loading="lazy">
+                    <h3>Зараз</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <p class="section-label">QUOTE</p>
+            <h2>Моя улюблена цитата</h2>
+
+            <blockquote>
+                “У футболі шлях від героя до нікчеми займає лише тиждень.”
+                <cite>— Давід Вагнер</cite>
+            </blockquote>
+        </section>
+
+        <section class="city-section">
+            <p class="section-label">CITY</p>
+            <h2>Моє місто</h2>
+
+            <p>
+                Я живу в місті Харків. Харків відомий як перша столиця України.
+                Це велике місто з багатою історією, розвиненою освітою, культурою
+                та особливою атмосферою.
+            </p>
+
+            <div class="map-wrapper">
+                <iframe
+                    class="map-frame"
+                    src="https://www.google.com/maps?q=Kharkiv,%20Ukraine&output=embed"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="slideshow-section" id="slideshow">
+            <p class="section-label">FOOTBALL</p>
+            <h2>Слайд-шоу: мої футбольні фото</h2>
+
+            <p class="section-description">
+                Невелика добірка футбольних фотографій, які показують частину
+                мого спортивного життя.
+            </p>
+
+            <div class="slideshow-wrapper">
+                <div class="slideshow-card">
+                   <div class="slide active">
+    <img src="site/1.jpg" alt="Футбольне фото 1" class="slide-first-photo">
+</div>
+
+                    <div class="slide">
+                        <img src="site/2.jpg" alt="Футбольне фото 2" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="site/3.jpg" alt="Футбольне фото 3" loading="lazy">
+                    </div>
+
+                    <div class="slide">
+                        <img src="site/4.jpg" alt="Футбольне фото 4" loading="lazy">
+                    </div>
+
+                    <div class="slider-controls">
+                        <button type="button" onclick="prevSlide()">Назад</button>
+                        <button type="button" onclick="nextSlide()">Вперед</button>
+                    </div>
+
+                    <div class="slider-dots" id="sliderDots"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Shakhmaiev Mykyta</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

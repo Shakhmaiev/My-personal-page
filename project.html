@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html">Головна</a>
+            <a href="index.html#subjects">Предмети</a>
+            <a href="index.html#anime">Аніме</a>
+            <a href="index.html#mood">Настрої</a>
+            <a href="index.html#slideshow">Слайд-шоу</a>
+            <a href="project.html">Улюблений проєкт</a>
+        </nav>
+
+       <div class="theme-buttons">
+    <button
+        type="button"
+        class="theme-switcher-grid"
+        id="themeToggle"
+        aria-label="Перемкнути тему"
+        title="Перемкнути тему"
+    >
+        <span class="sun" aria-hidden="true"></span>
+        <span class="moon-overlay" aria-hidden="true"></span>
+
+        <span class="cloud-ball cloud-ball-left" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-middle" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-right" aria-hidden="true"></span>
+        <span class="cloud-ball cloud-ball-top" aria-hidden="true"></span>
+
+        <span class="star star-1" aria-hidden="true"></span>
+        <span class="star star-2" aria-hidden="true"></span>
+        <span class="star star-3" aria-hidden="true"></span>
+        <span class="star star-4" aria-hidden="true"></span>
+    </button>
+</div>
+    </header>
+
+    <main class="main">
+
+        <section class="project-section">
+            <p class="section-label">3D PROJECT</p>
+
+            <h1>Мій улюблений проєкт</h1>
+
+            <h2>Мон-Сен-Мішель — 3D-тур</h2>
+
+            <p>
+                Мон-Сен-Мішель — це інтерактивний 3D-тур, який дозволяє переглянути
+                відоме історичне місце у форматі сучасної веб-графіки.
+            </p>
+
+            <p>
+                Цей проєкт поєднує високодеталізовану 3D-графіку, реалістичне
+                освітлення та плавну навігацію. Завдяки цьому користувач може
+                не просто дивитися на зображення, а взаємодіяти з простором і
+                краще відчути атмосферу Мон-Сен-Мішеля.
+            </p>
+
+            <p>
+                Мені подобається цей проєкт, тому що він показує, як за допомогою
+                веб-технологій можна створювати не лише звичайні сайти, а й
+                повноцінні інтерактивні візуальні простори.
+            </p>
+
+            <div class="project-link">
+                <a href="https://mont-saint-michel-3d.website" target="_blank">
+                    Перейти до 3D-туру
+                </a>
+            </div>
+
+            <div class="project-preview">
+                <iframe
+                    class="project-frame"
+                    src="https://mont-saint-michel-3d.website"
+                    title="Мон-Сен-Мішель 3D-тур"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Shakhmaiev Mykyta</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
